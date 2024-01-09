@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../assets/icono/logo.png">
+        <title>Mr. Bourgeus</title>
+    </head>
+<body>
+    <header>
+        <a href="../index.html" class="brand">
+            <img src="../assets/logo.png" alt="logo">
+            <h1>Mr. Bourgeus</h1>
+        </a>
+    <nav>
+        <ul>
+            <li>
+                <a class="btn-gl btn-buy " href="../index.html"> Seguir comprando</a>
+            </li>
+            <li>
+                <a class="btn-gl btn-carrito active" href="#">
+                    <i class="bi bi-cart-fill"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h1 class="title-main title-cart">Productos del carrito</h1>
+        <div class="conteiner-cart">
+            <p class="empty-cart" id="empty-cart">Tu carrito esta vacio.😴</p>
+            <div class="products-cart disabled " id="products-cart">
+            </div>
+            <div class="cmd-cart-btns disabled" id="cmd-cart-btns">
+                <button class="btn-empty-cart">VACIAR CARRITO</button>
+                <div class="rth-bottom-cart">
+                    <div class="description-total-cart">
+                        <small>Total:</small>
+                        <p id="total">$0000</p>
+                    </div>
+                    <button class="btn-cart-buy">COMPRAR AHORA</button>
+                </div>
+            </div>
+            <p class="buy-cart-succes disabled " id="buy-cart-succes">Su compra se realizo con exito. Muchas gracias por elegirnos 🥰</p>
+        </div>
+    </main>
+
+    <script src="../js/cart.js"></script>
+</body>
+</html>
