@@ -1,0 +1,245 @@
+[
+    {
+        "id":"h01",
+        "nameProduct":"Caropardiaco",
+        "imageProduct":"./assets/images/hamburguesas/caropardiaco.jpg",
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas",
+            "id":"hamburguesas"
+        },
+        "descProduct":"Lomo, cheddar, cebolla caramelizada, beacon, huevo frito (Incluye papas).",
+        "priceProduct":"3500"
+    },
+
+    {
+        "id":"p01",
+        "nameProduct":"Bob Esponja",
+        "imageProduct":"./assets/images/pizzas/bobesponja.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Muzzarella, anana, beacon, verdeo.",
+        "priceProduct":"4800"
+    },
+    {
+        "id":"pf01",
+        "nameProduct":"Cheddita",
+        "imageProduct": "./assets/images/papas fritas/cheddita.jpg",
+        "categoryProduct":{
+            "nameCategory":"Papas",
+            "id":"papas"
+        },
+        "descProduct":"Papas, cheddar, salchicha alemana.",
+        "priceProduct":"2800"
+    },
+    {
+        "id":"h02",
+        "nameProduct":"Cebollita",
+        "imageProduct":"./assets/images/hamburguesas/cebollita.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas",
+            "id":"hamburguesas"
+        },
+        "descProduct":"Medallon de pollo, lomo, lechuga, tomate, cheddar, palta, cebolla caramelizada (Incluye papas).",
+        "priceProduct":"3800"
+    },
+    {
+        "id":"p02",
+        "nameProduct":"Calabreza",
+        "imageProduct":"./assets/images/pizzas/calabreza.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Muzzarella, salame ahumado.",
+        "priceProduct":"4400"
+    },
+    {
+        "id":"h03",
+        "nameProduct":"Doble o Nada",
+        "imageProduct":"./assets/images/hamburguesas/dobleonada.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas" ,
+            "id":"hamburguesas"
+        },
+        "descProduct":"Doble medallon, doble cheddar, beacon, aros marinados de cebolla (Incluye papas).",
+        "priceProduct":"3800"
+    },
+    {
+        "id":"p03",
+        "nameProduct":"Elote",
+        "imageProduct":"./assets/images/pizzas/elote.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Muzzarella, choclo, jamon crudo, oregano.",
+        "priceProduct":"4600"
+    },
+    {
+        "id":"pf02",
+        "nameProduct":"Chicholina",
+        "imageProduct":"./assets/images/papas fritas/chicholina.jpg",
+        "categoryProduct":{
+            "nameCategory":"Papas",
+            "id":"papas"
+        },
+        "descProduct":"Papas, salchicha alemana, huevo duro.",
+        "priceProduct":"2600"
+    },
+    {
+        "id":"h04",
+        "nameProduct":"Guacamayo",
+        "imageProduct":"./assets/images/hamburguesas/guacamayo.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas" ,
+            "id":"hamburguesas"
+        },
+        "descProduct":"Doble medallon de carne marinado, cheddar, tomate, palta (Incluye papas).",
+        "priceProduct":"3600"
+    },
+    {
+        "id":"p04",
+        "nameProduct":"Mushroom",
+        "imageProduct":"./assets/images/pizzas/mushroom.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Muzzarella, championines, albahaca, oregano.",
+        "priceProduct":"4700"
+    },
+    {
+        "id":"h05",
+        "nameProduct":"Jamaican",
+        "imageProduct":"./assets/images/hamburguesas/jamaican.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas" ,
+            "id":"hamburguesas"
+        },
+        "descProduct":"Medallon, cheddar, lechuga, pepino, beacon, anana, palta (Incluye papas).",
+        "priceProduct":"3700"
+    },
+    {
+        "id":"p05",
+        "nameProduct":"Muzza",
+        "imageProduct":"./assets/images/pizzas/muzza.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Muzzarella, oregano.",
+        "priceProduct":"4000"
+    },
+    {
+        "id":"pf03",
+        "nameProduct":"Chiken Little",
+        "imageProduct":"./assets/images/papas fritas/chikenlittle.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Papas",
+            "id":"papas"
+        },
+        "descProduct":"Papas, muzzarella, choclo, pollo desmenusado.",
+        "priceProduct":"3000"
+    },
+    {
+        "id":"h06",
+        "nameProduct":"Lomo Burgues",
+        "imageProduct":"./assets/images/hamburguesas/lomoburgues.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas" ,
+            "id":"hamburguesas"
+        },
+        "descProduct":"Medallon de carne marinado, lomo, verdeo salteada, tomate (Incluye papas).",
+        "priceProduct":"3700"
+    },
+    {
+        "id":"p06",
+        "nameProduct":"Napolitana",
+        "imageProduct":"./assets/images/pizzas/napolitana.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Muzzarella, tomate, oregano.",
+        "priceProduct":"4000"
+    },
+    {
+        "id":"h07",
+        "nameProduct":"Suculenta",
+        "imageProduct":"./assets/images/hamburguesas/suculenta.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas" ,
+            "id":"hamburguesas"
+        },
+        "descProduct":"Medallon de carne, pepino, salsa de ajo, cebolla caramelizada, cheddar, lechuga (Incluye papas).",
+        "priceProduct":"3400"
+    },
+    {
+        "id":"p07",
+        "nameProduct":"Onion",
+        "imageProduct":"./assets/images/pizzas/onion.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Cebolla morada, muzzarella, nueces. ",
+        "priceProduct":"4400"
+    },
+    {
+        "id":"pf04",
+        "nameProduct":"Matar o Morir",
+        "imageProduct":"./assets/images/papas fritas/mataromorir.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Papas",
+            "id":"papas"
+        },
+        "descProduct":"Papas, beacon, muzzarella, lomo desmenusado, huevo duro.",
+        "priceProduct":"3200"
+    },
+    {
+        "id":"h08",
+        "nameProduct":"Tapa Arteria",
+        "imageProduct":"./assets/images/hamburguesas/taparteria.jpg",
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas" ,
+            "id":"hamburguesas"
+        },
+        "descProduct":"Triple medallon, triple cheddar, triple beacon, huevo frito, salsa de ajo (Incluye papas).",
+        "priceProduct":"4000"
+    },
+    {
+        "id":"p08",
+        "nameProduct":"Vegeta",
+        "imageProduct":"./assets/images/pizzas/vegeta.jpg",
+        "categoryProduct":{
+            "nameCategory":"Pizzas",
+            "id":"pizzas"
+        },
+        "descProduct":"Morron, berenjena, muzzarella, salsa de chaucha.",
+        "priceProduct":"4200"
+    },
+    {
+        "id":"h09",
+        "nameProduct":"Veggie",
+        "imageProduct":"./assets/images/hamburguesas/veggie.jpg",
+        "categoryProduct":{
+            "nameCategory":"Hamburguesas" ,
+            "id":"hamburguesas"
+        },
+        "descProduct":"Medallon lenteja, pepino, cheddar, lechuga, tomate, cebolla.(Incluye papas).",
+        "priceProduct":"3000"
+    },
+    {
+        "id":"pf05",
+        "nameProduct":"Papolitana",
+        "imageProduct":"./assets/images/papas fritas/papolitana.jpg" ,
+        "categoryProduct":{
+            "nameCategory":"Papas",
+            "id":"papas"
+        },
+        "descProduct":"Papas, muzzarella, salsa de tomate, tomate.",
+        "priceProduct":"2800"
+    }
+]

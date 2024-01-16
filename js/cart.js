@@ -70,12 +70,11 @@ function resetBtnsRemoveCartProduct() {
 
 function resetTotal(){
     const totalBuy = productCartLoad.reduce((acumulador, product) => acumulador + (product.priceProduct * product.cantidad), 0);
-    console.log(totalBuy)
     total.innerText = `$${totalBuy}`;
 }
 /*creamos una funcion para eliminar los productos del carrito*/
-
 function removeProductCart(event){
+
     const idRmvBtn = event.currentTarget.id;
     /*buscamos el indice del preducto que es igual al id*/
     const iProduct = productCartLoad.findIndex(product => product.id === idRmvBtn);
@@ -94,17 +93,43 @@ function removeProductCart(event){
 
 btnEmptyCart.addEventListener("click", emptyCart)
 function emptyCart() {
-    productCartLoad.length= 0;
-    localStorage.setItem("products-cart", JSON.stringify(productCartLoad));
-    loadProductCart();
+
+    Swal.fire({
+        background:"antiquewhite",
+        title: "¿Estás seguro?",
+        color:"#480b31",
+        text: "Desea eliminar todos los productos del carrito",
+        icon: 'question',
+        iconColor:"#5F0F40",
+        confirmButtonColor:"#9e1a6b",
+        showCancelButton: true,
+        cancelButtonColor:"#480b31",
+        focusConfirm: false,
+        confirmButtonText: 'Sí',
+        cancelButtonText: 'No'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            productCartLoad.length = 0;
+            localStorage.setItem("products-cart", JSON.stringify(productCartLoad));
+            loadProductCart();
+        }
+    })
 };
 
 btnBuyNow.addEventListener("click", buyAllNow);
 function buyAllNow(){
+    Swal.fire({
+        title: "Gracias por elegirnos",
+        text: "Su compra se ha realizado con exito!!",
+        color:"#480b31",
+        icon: "success",
+        confirmButtonColor:"#9e1a6b",
+        timer:3000
+    });
     productCartLoad.length = 0;
-    cartEmpty.classList.add("disabled");
+    cartEmpty.classList.remove("disabled");
     cartConteiner.classList.add("disabled");
     cartBtnsCmd.classList.add("disabled");
-    cartBuyed.classList.remove("disabled");
+    cartBuyed.classList.add("disabled");
     localStorage.setItem("products-cart", JSON.stringify(productCartLoad));
 }
