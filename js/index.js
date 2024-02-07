@@ -17,7 +17,7 @@ let mainTitle = document.querySelector("#title-main");
 let btnsAdd = document.querySelectorAll(".btn-add-cart");
 const contadorCart = document.querySelector("#counter-cart")
 
-
+resetBtnAdd();
 /*funcion para cargar los productos que contiene el array enviado por parametro */
 const productUpdate = (selecProducts) => {
     /* reset del array para no superponer los productos */
